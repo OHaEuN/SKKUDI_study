@@ -1,3 +1,4 @@
+
 function print(){
     let list = document.querySelectorAll("li");
     let listArray = Array.from(list);

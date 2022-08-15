@@ -22,9 +22,9 @@ let news =[
 ]
 
 
-let [,mbc] =news;
-let {title, imgurl} = mbc;
-console.log(title, imgurl);
+// let [,mbc] =news;
+// let {title, imgurl} = mbc;
+// console.log(title, imgurl);
 
 //중첩해서 간단하게 접근
 let [, {title,imgurl}] =news;
